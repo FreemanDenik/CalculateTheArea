@@ -1,6 +1,6 @@
 ﻿using System;
 using MyProgram.Infrasrtructure;
-using CalculateTheArea;
+using CalculateTheArea; // это и есть та самая библиотека
 namespace MyProgram
 {
     class Program
