@@ -15,7 +15,7 @@ namespace MyProgram
             var areaRectangle = calc.Rectangle(23, 23); //расширенная функция (добавленная)
 
             Console.WriteLine($"Прощадь круга при радиусе 23: {areaСircle}");
-            Console.WriteLine($"Прощадь треугольника при сторонах 23, 23, 23: {areaTriangle}");
+            Console.WriteLine($"Прощадь треугольника при сторонах 20, 20, 20: {areaTriangle}");
             Console.WriteLine($"Прощадь квадратах при сторонах 23, 23: {areaRectangle} (расширенная функция)");
 
         }
