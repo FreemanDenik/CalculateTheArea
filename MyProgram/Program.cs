@@ -11,8 +11,8 @@ namespace MyProgram
             Calculate calc = new Calculate();
 
             var areaСircle = calc.Сircle(23);
-            var areaTriangle = calc.Triangle(23, 23, 23);
-            var areaRectangle = calc.Rectangle(23, 23);
+            var areaTriangle = calc.Triangle(20, 20, 20);
+            var areaRectangle = calc.Rectangle(23, 23); //расширенная функция (добавленная)
 
             Console.WriteLine($"Прощадь круга при радиусе 23: {areaСircle}");
             Console.WriteLine($"Прощадь треугольника при сторонах 23, 23, 23: {areaTriangle}");
